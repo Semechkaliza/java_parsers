@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<oldCards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.com/oldCards"
+          xsi:noNamespaceSchemaLocation="postcards.xsd">
+    <card  status="sent" type="congratulatory">
+        <thema>Nature</thema>
+        <year>2010</year>
+        <country>Belarus</country>
+        <author>Repin</author>
+        <valuable>Historical</valuable>
+    </card>
+    <card  status="not sent" type="common">
+        <thema>People</thema>
+        <year>2010</year>
+        <country>Russia</country>
+        <author>Perov</author>
+        <valuable>Collection</valuable>
+    </card>
+    <card  status="not sent" type="advertising">
+        <thema>People</thema>
+        <year>2010</year>
+        <country>Russia</country>
+        <author>Sidorov</author>
+        <valuable>Topical</valuable>
+    </card>
+    <card  status="not sent" type="common">
+        <thema>People</thema>
+        <year>2010</year>
+        <country>Russia</country>
+        <author>Vasnecov</author>
+        <valuable>Collection</valuable>
+    </card>
+    <card  status="not sent" type="advertising">
+        <thema>Sport</thema>
+        <year>2011</year>
+        <country>Russia</country>
+        <author>Petrov,Galkin</author>
+        <valuable>Topical</valuable>
+    </card>
+    <card  status="sent" type="congratulatory">
+        <thema>People</thema>
+        <year>2010</year>
+        <country>Spain</country>
+        <author> </author>
+        <valuable>Collection</valuable>
+    </card>
+    <card  status="not sent" type="advertising">
+        <thema>Nature</thema>
+        <year>2001</year>
+        <country>Russia</country>
+        <author>Repin</author>
+        <valuable>Historical</valuable>
+    </card>
+    <card  status="sent" type="congratulatory">
+        <thema>People</thema>
+        <year>2010</year>
+        <country>Ukraine</country>
+        <author>Repin</author>
+        <valuable> </valuable>
+    </card>
+    <card  status="sent" type="common">
+        <thema>Architecture</thema>
+        <year>2012</year>
+        <country>Belarus</country>
+        <author>Petrov</author>
+        <valuable>Collection</valuable>
+    </card>
+    <card  status="not sent" type="congratulatory">
+        <thema>Nature</thema>
+        <year>2000</year>
+        <country>Russia</country>
+        <author>Repin</author>
+        <valuable>Topical</valuable>
+    </card>
+    <card  status="not sent" type="advertising">
+        <thema>People</thema>
+        <year>2010</year>
+        <country>Russia</country>
+        <author>Repin</author>
+        <valuable>Collection</valuable>
+    </card>
+    <card  status="not sent" type="advertising">
+        <thema>Sport</thema>
+        <year>1998</year>
+        <country>Austria</country>
+        <author>Repin</author>
+        <valuable>Historical</valuable>
+    </card>
+    <card  status="sent" type="common">
+        <thema>People</thema>
+        <year>2010</year>
+        <country>Russia</country>
+        <author>Repin</author>
+        <valuable>Topical</valuable>
+    </card>
+    <card  status="not sent" type="common">
+        <thema>Nature</thema>
+        <year>2000</year>
+        <country>France</country>
+        <author>Repin</author>
+        <valuable>Historical</valuable>
+    </card>
+    <card  status="sent" type="advertising">
+        <thema>Nature</thema>
+        <year>2003</year>
+        <country>Russia</country>
+        <author>Repin</author>
+        <valuable>Collection</valuable>
+    </card>
+    <card  status="sent" type="common">
+        <thema>People</thema>
+        <year>2010</year>
+        <country>Belgum</country>
+        <author> </author>
+        <valuable>Historical</valuable>
+    </card>
+</oldCards>

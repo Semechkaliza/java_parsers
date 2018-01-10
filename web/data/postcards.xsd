@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/oldCards"
+        xmlns:tns="http://www.example.com/oldCards"
+        elementFormDefault="qualified">
+    <xs:element name="oldCards">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="card"
+                         type="tns:card"
+                         minOccurs="2"
+                         maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="card">
+        <xs:sequence>
+            <xs:element name="thema" type="xs:string" />
+            <xs:element name="year" type="xs:positiveInteger" />
+            <xs:element name="country">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-Z]{0,20}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+
+            </xs:element>
+            <xs:element name="author" type="xs:string" />
+        <xs:element name="valuable" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="type"
+                      type="xs:string" use="required"/>
+        <xs:attribute name="status" use="optional" default="not sent">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="sent"/>
+                    <xs:enumeration value="not sent"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+</xs:schema>

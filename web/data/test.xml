@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<oldCards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.com/oldCards"
+          xsi:noNamespaceSchemaLocation="postcards.xsd">
+    <card  status="sent" type="congratulatory">
+        <thema>Nature</thema>
+        <year>2010</year>
+        <country>Belarus</country>
+        <author>Repin</author>
+        <valuable>Historical</valuable>
+    </card>
+    <card  status="not sent" type="common">
+        <thema>People</thema>
+        <year>2012</year>
+        <country>Russia</country>
+        <author>Perov</author>
+        <valuable>Collection</valuable>
+    </card>
+</oldCards>
